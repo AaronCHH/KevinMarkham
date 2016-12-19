@@ -1,40 +1,41 @@
 
 # Python pandas Q&A video series by [Data School](http://www.dataschool.io/)
 
-### [YouTube playlist](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y) and [GitHub repository](https://github.com/justmarkham/pandas-videos)
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-## Table of contents
+- [Python pandas Q&A video series by Data School](#python-pandas-qa-video-series-by-data-schoolhttpwwwdataschoolio)
+	- [1. What is pandas? (video)](#1-what-is-pandas-videohttpswwwyoutubecomwatchvyzimircgu5ilistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex1)
+	- [2. How do I read a tabular data file into pandas? (video)](#2-how-do-i-read-a-tabular-data-file-into-pandas-videohttpswwwyoutubecomwatchv5_qxmwezpjelistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex2)
+	- [3. How do I select a pandas Series from a DataFrame? (video)](#3-how-do-i-select-a-pandas-series-from-a-dataframe-videohttpswwwyoutubecomwatchvzxqjeykp2tklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex3)
+	- [4. Why do some pandas commands end with parentheses (and others don't)? (video)](#4-why-do-some-pandas-commands-end-with-parentheses-and-others-dont-videohttpswwwyoutubecomwatchvhsrdviykwvklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex4)
+	- [5. How do I rename columns in a pandas DataFrame? (video)](#5-how-do-i-rename-columns-in-a-pandas-dataframe-videohttpswwwyoutubecomwatchv0ubiryfhizelistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex5)
+	- [6. How do I remove columns from a pandas DataFrame? (video)](#6-how-do-i-remove-columns-from-a-pandas-dataframe-videohttpswwwyoutubecomwatchvgnukks964wqlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex6)
+	- [7. How do I sort a pandas DataFrame or a Series? (video)](#7-how-do-i-sort-a-pandas-dataframe-or-a-series-videohttpswwwyoutubecomwatchvzy4dof6xsxylistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex7)
+	- [8. How do I filter rows of a pandas DataFrame by column value? (video)](#8-how-do-i-filter-rows-of-a-pandas-dataframe-by-column-value-videohttpswwwyoutubecomwatchv2afgpdnn4fmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex8)
+	- [9. How do I apply multiple filter criteria to a pandas DataFrame? (video)](#9-how-do-i-apply-multiple-filter-criteria-to-a-pandas-dataframe-videohttpswwwyoutubecomwatchvypitfq87qjmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex9)
+	- [10. Your pandas questions answered! (video)](#10-your-pandas-questions-answered-videohttpswwwyoutubecomwatchvb-r9vuk80dklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex10)
+	- [11. How do I use the "axis" parameter in pandas? (video)](#11-how-do-i-use-the-axis-parameter-in-pandas-videohttpswwwyoutubecomwatchvpto3t6ynh-8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex11)
+	- [12. How do I use string methods in pandas? (video)](#12-how-do-i-use-string-methods-in-pandas-videohttpswwwyoutubecomwatchvbofac0ickholistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex12)
+	- [13. How do I change the data type of a pandas Series? (video)](#13-how-do-i-change-the-data-type-of-a-pandas-series-videohttpswwwyoutubecomwatchvv0awyzvmf54listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex13)
+	- [14. When should I use a "groupby" in pandas? (video)](#14-when-should-i-use-a-groupby-in-pandas-videohttpswwwyoutubecomwatchvqy0fdqomjx8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex14)
+	- [15. How do I explore a pandas Series? (video)](#15-how-do-i-explore-a-pandas-series-videohttpswwwyoutubecomwatchvqtvtq8spzxmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex15)
+	- [16. How do I handle missing values in pandas? (video)](#16-how-do-i-handle-missing-values-in-pandas-videohttpswwwyoutubecomwatchvfcmro_vzel8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex16)
+	- [17. What do I need to know about the pandas index? (Part 1) (video)](#17-what-do-i-need-to-know-about-the-pandas-index-part-1-videohttpswwwyoutubecomwatchvoyznk7z9s6ilistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex17)
+	- [18. What do I need to know about the pandas index? (Part 2) (video)](#18-what-do-i-need-to-know-about-the-pandas-index-part-2-videohttpswwwyoutubecomwatchv15q-is8p_h4listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex18)
+	- [19. How do I select multiple rows and columns from a pandas DataFrame? (video)](#19-how-do-i-select-multiple-rows-and-columns-from-a-pandas-dataframe-videohttpswwwyoutubecomwatchvxvpna7bc8cslistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex19)
+	- [20. When should I use the "inplace" parameter in pandas? (video)](#20-when-should-i-use-the-inplace-parameter-in-pandas-videohttpswwwyoutubecomwatchvxacsdr7ppmylistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex20)
+	- [21. How do I make my pandas DataFrame smaller and faster? (video)](#21-how-do-i-make-my-pandas-dataframe-smaller-and-faster-videohttpswwwyoutubecomwatchvwdydygyn_cwlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex21)
+	- [22. How do I use pandas with scikit-learn to create Kaggle submissions? (video)](#22-how-do-i-use-pandas-with-scikit-learn-to-create-kaggle-submissions-videohttpswwwyoutubecomwatchvylrlgctatielistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex22)
+	- [23. More of your pandas questions answered! (video)](#23-more-of-your-pandas-questions-answered-videohttpswwwyoutubecomwatchvoh3wykvwpj8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex23)
+	- [24. How do I create dummy variables in pandas? (video)](#24-how-do-i-create-dummy-variables-in-pandas-videohttpswwwyoutubecomwatchv0s_1isrogdclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex24)
+	- [25. How do I work with dates and times in pandas? (video)](#25-how-do-i-work-with-dates-and-times-in-pandas-videohttpswwwyoutubecomwatchvycgjgsg0xa4listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex25)
+	- [26. How do I find and remove duplicate rows in pandas? (video)](#26-how-do-i-find-and-remove-duplicate-rows-in-pandas-videohttpswwwyoutubecomwatchvht5buxumqkqlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex26)
+	- [27. How do I avoid a SettingWithCopyWarning in pandas? (video)](#27-how-do-i-avoid-a-settingwithcopywarning-in-pandas-videohttpswwwyoutubecomwatchv4r4wsdj-kvclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex27)
+	- [28. How do I change display options in pandas? (video)](#28-how-do-i-change-display-options-in-pandas-videohttpswwwyoutubecomwatchvyio43tq4xvclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex28)
+	- [29. How do I create a pandas DataFrame from another object? (video)](#29-how-do-i-create-a-pandas-dataframe-from-another-object-videohttpswwwyoutubecomwatchv-ov1n1_fbp8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex29)
+	- [30. How do I apply a function to a pandas Series or DataFrame? (video)](#30-how-do-i-apply-a-function-to-a-pandas-series-or-dataframe-videohttpswwwyoutubecomwatchvp_q0tkyqvsklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex30)
 
-1. <a href="#1.-What-is-pandas%3F-%28video%29">What is pandas?</a>
-2. <a href="#2.-How-do-I-read-a-tabular-data-file-into-pandas%3F-%28video%29">How do I read a tabular data file into pandas?</a>
-3. <a href="#3.-How-do-I-select-a-pandas-Series-from-a-DataFrame%3F-%28video%29">How do I select a pandas Series from a DataFrame?</a>
-4. <a href="#4.-Why-do-some-pandas-commands-end-with-parentheses-%28and-others-don't%29%3F-%28video%29">Why do some pandas commands end with parentheses (and others don't)?</a>
-5. <a href="#5.-How-do-I-rename-columns-in-a-pandas-DataFrame%3F-%28video%29">How do I rename columns in a pandas DataFrame?</a>
-6. <a href="#6.-How-do-I-remove-columns-from-a-pandas-DataFrame%3F-%28video%29">How do I remove columns from a pandas DataFrame?</a>
-7. <a href="#7.-How-do-I-sort-a-pandas-DataFrame-or-a-Series%3F-%28video%29">How do I sort a pandas DataFrame or a Series?</a>
-8. <a href="#8.-How-do-I-filter-rows-of-a-pandas-DataFrame-by-column-value%3F-%28video%29">How do I filter rows of a pandas DataFrame by column value?</a>
-9. <a href="#9.-How-do-I-apply-multiple-filter-criteria-to-a-pandas-DataFrame%3F-%28video%29">How do I apply multiple filter criteria to a pandas DataFrame?</a>
-10. <a href="#10.-Your-pandas-questions-answered%21-%28video%29">Your pandas questions answered!</a>
-11. <a href="#11.-How-do-I-use-the-%22axis%22-parameter-in-pandas%3F-%28video%29">How do I use the "axis" parameter in pandas?</a>
-12. <a href="#12.-How-do-I-use-string-methods-in-pandas%3F-%28video%29">How do I use string methods in pandas?</a>
-13. <a href="#13.-How-do-I-change-the-data-type-of-a-pandas-Series%3F-%28video%29">How do I change the data type of a pandas Series?</a>
-14. <a href="#14.-When-should-I-use-a-%22groupby%22-in-pandas%3F-%28video%29">When should I use a "groupby" in pandas?</a>
-15. <a href="#15.-How-do-I-explore-a-pandas-Series%3F-%28video%29">How do I explore a pandas Series?</a>
-16. <a href="#16.-How-do-I-handle-missing-values-in-pandas%3F-%28video%29">How do I handle missing values in pandas?</a>
-17. <a href="#17.-What-do-I-need-to-know-about-the-pandas-index%3F-%28Part-1%29-%28video%29">What do I need to know about the pandas index? (Part 1)</a>
-18. <a href="#18.-What-do-I-need-to-know-about-the-pandas-index%3F-%28Part-2%29-%28video%29">What do I need to know about the pandas index? (Part 2)</a>
-19. <a href="#19.-How-do-I-select-multiple-rows-and-columns-from-a-pandas-DataFrame%3F-%28video%29">How do I select multiple rows and columns from a pandas DataFrame?</a>
-20. <a href="#20.-When-should-I-use-the-%22inplace%22-parameter-in-pandas%3F-%28video%29">When should I use the "inplace" parameter in pandas?</a>
-21. <a href="#21.-How-do-I-make-my-pandas-DataFrame-smaller-and-faster%3F-%28video%29">How do I make my pandas DataFrame smaller and faster?</a>
-22. <a href="#22.-How-do-I-use-pandas-with-scikit-learn-to-create-Kaggle-submissions%3F-%28video%29">How do I use pandas with scikit-learn to create Kaggle submissions?</a>
-23. <a href="#23.-More-of-your-pandas-questions-answered%21-%28video%29">More of your pandas questions answered!</a>
-24. <a href="#24.-How-do-I-create-dummy-variables-in-pandas%3F-%28video%29">How do I create dummy variables in pandas?</a>
-25. <a href="#25.-How-do-I-work-with-dates-and-times-in-pandas%3F-%28video%29">How do I work with dates and times in pandas?</a>
-26. <a href="#26.-How-do-I-find-and-remove-duplicate-rows-in-pandas%3F-%28video%29">How do I find and remove duplicate rows in pandas?</a>
-27. <a href="#27.-How-do-I-avoid-a-SettingWithCopyWarning-in-pandas%3F-%28video%29">How do I avoid a SettingWithCopyWarning in pandas?</a>
-28. <a href="#28.-How-do-I-change-display-options-in-pandas%3F-%28video%29">How do I change display options in pandas?</a>
-29. <a href="#29.-How-do-I-create-a-pandas-DataFrame-from-another-object%3F-%28video%29">How do I create a pandas DataFrame from another object?</a>
-30. <a href="#30.-How-do-I-apply-a-function-to-a-pandas-Series-or-DataFrame%3F-%28video%29">How do I apply a function to a pandas Series or DataFrame?</a>
+<!-- tocstop -->
 
 
 ```python
@@ -2045,7 +2046,7 @@ print(False and False)
     True
     False
     False
-    
+
 
 
 ```python
@@ -2058,7 +2059,7 @@ print(False or False)
     True
     True
     False
-    
+
 
 Rules for specifying **multiple filter criteria** in pandas:
 
@@ -2430,7 +2431,7 @@ for c in ufo.City:
     Ithaca
     Willingboro
     Holyoke
-    
+
 
 **Question:** How do I iterate through a DataFrame?
 
@@ -2444,7 +2445,7 @@ for index, row in ufo.iterrows():
     (0, 'Ithaca', 'NY')
     (1, 'Willingboro', 'NJ')
     (2, 'Holyoke', 'CO')
-    
+
 
 Documentation for [**`iterrows`**](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.iterrows.html)
 
@@ -7623,7 +7624,7 @@ drinks.info()
     continent                       193 non-null object
     dtypes: float64(1), int64(3), object(2)
     memory usage: 9.1+ KB
-    
+
 
 
 ```python
@@ -7642,7 +7643,7 @@ drinks.info(memory_usage='deep')
     continent                       193 non-null object
     dtypes: float64(1), int64(3), object(2)
     memory usage: 24.4 KB
-    
+
 
 
 ```python
@@ -11289,13 +11290,13 @@ import numpy as np
 movies[movies.content_rating=='NOT RATED'].content_rating = np.nan
 ```
 
-    c:\Users\Kevin\Anaconda\lib\site-packages\pandas\core\generic.py:2701: SettingWithCopyWarning: 
+    c:\Users\Kevin\Anaconda\lib\site-packages\pandas\core\generic.py:2701: SettingWithCopyWarning:
     A value is trying to be set on a copy of a slice from a DataFrame.
     Try using .loc[row_indexer,col_indexer] = value instead
-    
+
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self[name] = value
-    
+
 
 **Problem:** That statement involves two operations, a **`__getitem__`** and a **`__setitem__`**. pandas can't guarantee whether the **`__getitem__`** operation returns a view or a copy of the data.
 
@@ -11414,13 +11415,13 @@ top_movies
 top_movies.loc[0, 'duration'] = 150
 ```
 
-    c:\Users\Kevin\Anaconda\lib\site-packages\pandas\core\indexing.py:465: SettingWithCopyWarning: 
+    c:\Users\Kevin\Anaconda\lib\site-packages\pandas\core\indexing.py:465: SettingWithCopyWarning:
     A value is trying to be set on a copy of a slice from a DataFrame.
     Try using .loc[row_indexer,col_indexer] = value instead
-    
+
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self.obj[item] = s
-    
+
 
 **Problem:** pandas isn't sure whether 'top_movies' is a view or a copy of 'movies'.
 
@@ -14554,85 +14555,85 @@ pd.describe_option()
         if set to a float value, all float values smaller then the given threshold
         will be displayed as exactly 0 by repr and friends.
         [default: None] [currently: None]
-    
+
     display.colheader_justify : 'left'/'right'
         Controls the justification of column headers. used by DataFrameFormatter.
         [default: right] [currently: right]
-    
+
     display.column_space No description available.
         [default: 12] [currently: 12]
-    
+
     display.date_dayfirst : boolean
         When True, prints and parses dates with the day first, eg 20/01/2005
         [default: False] [currently: False]
-    
+
     display.date_yearfirst : boolean
         When True, prints and parses dates with the year first, eg 2005/01/20
         [default: False] [currently: False]
-    
+
     display.encoding : str/unicode
         Defaults to the detected encoding of the console.
         Specifies the encoding to be used for strings returned by to_string,
         these are generally strings meant to be displayed on the console.
         [default: UTF-8] [currently: UTF-8]
-    
+
     display.expand_frame_repr : boolean
         Whether to print out the full DataFrame repr for wide DataFrames across
         multiple lines, `max_columns` is still respected, but the output will
         wrap-around across multiple "pages" if its width exceeds `display.width`.
         [default: True] [currently: True]
-    
+
     display.float_format : callable
         The callable should accept a floating point number and return
         a string with the desired format of the number. This is used
         in some places like SeriesFormatter.
         See formats.format.EngFormatter for an example.
         [default: None] [currently: <built-in method format of str object at 0x000000000CAB1F58>]
-    
+
     display.height : int
         Deprecated.
         [default: 60] [currently: 60]
         (Deprecated, use `display.max_rows` instead.)
-    
+
     display.large_repr : 'truncate'/'info'
         For DataFrames exceeding max_rows/max_cols, the repr (and HTML repr) can
         show a truncated table (the default from 0.13), or switch to the view from
         df.info() (the behaviour in earlier versions of pandas).
         [default: truncate] [currently: truncate]
-    
+
     display.latex.escape : bool
         This specifies if the to_latex method of a Dataframe uses escapes special
         characters.
         method. Valid values: False,True
         [default: True] [currently: True]
-    
+
     display.latex.longtable :bool
         This specifies if the to_latex method of a Dataframe uses the longtable
         format.
         method. Valid values: False,True
         [default: False] [currently: False]
-    
+
     display.latex.repr : boolean
         Whether to produce a latex DataFrame representation for jupyter
         environments that support it.
         (default: False)
         [default: False] [currently: False]
-    
+
     display.line_width : int
         Deprecated.
         [default: 80] [currently: 80]
         (Deprecated, use `display.width` instead.)
-    
+
     display.max_categories : int
         This sets the maximum number of categories pandas should output when
         printing out a `Categorical` or a Series of dtype "category".
         [default: 8] [currently: 8]
-    
+
     display.max_columns : int
         If max_cols is exceeded, switch to truncate view. Depending on
         `large_repr`, objects are either centrally truncated or printed as
         a summary view. 'None' value means unlimited.
-    
+
         In case python/IPython is running in a terminal and `large_repr`
         equals 'truncate' this can be set to 0 and pandas will auto-detect
         the width of the terminal and print a truncated object which fits
@@ -14640,30 +14641,30 @@ pd.describe_option()
         do not run in a terminal and hence it is not possible to do
         correct auto-detection.
         [default: 20] [currently: 20]
-    
+
     display.max_colwidth : int
         The maximum width in characters of a column in the repr of
         a pandas data structure. When the column overflows, a "..."
         placeholder is embedded in the output.
         [default: 50] [currently: 1000]
-    
+
     display.max_info_columns : int
         max_info_columns is used in DataFrame.info method to decide if
         per column information will be printed.
         [default: 100] [currently: 100]
-    
+
     display.max_info_rows : int or None
         df.info() will usually show null-counts for each column.
         For large frames this can be quite slow. max_info_rows and max_info_cols
         limit this null check only to frames with smaller dimensions than
         specified.
         [default: 1690785] [currently: 1690785]
-    
+
     display.max_rows : int
         If max_rows is exceeded, switch to truncate view. Depending on
         `large_repr`, objects are either centrally truncated or printed as
         a summary view. 'None' value means unlimited.
-    
+
         In case python/IPython is running in a terminal and `large_repr`
         equals 'truncate' this can be set to 0 and pandas will auto-detect
         the height of the terminal and print a truncated object which fits
@@ -14671,63 +14672,63 @@ pd.describe_option()
         IDLE do not run in a terminal and hence it is not possible to do
         correct auto-detection.
         [default: 60] [currently: 60]
-    
+
     display.max_seq_items : int or None
         when pretty-printing a long sequence, no more then `max_seq_items`
         will be printed. If items are omitted, they will be denoted by the
         addition of "..." to the resulting string.
-    
+
         If set to None, the number of items to be printed is unlimited.
         [default: 100] [currently: 100]
-    
+
     display.memory_usage : bool, string or None
         This specifies if the memory usage of a DataFrame should be displayed when
         df.info() is called. Valid values True,False,'deep'
         [default: True] [currently: True]
-    
+
     display.mpl_style : bool
         Setting this to 'default' will modify the rcParams used by matplotlib
         to give plots a more pleasing visual style by default.
         Setting this to None/False restores the values to their initial value.
         [default: None] [currently: None]
-    
+
     display.multi_sparse : boolean
         "sparsify" MultiIndex display (don't display repeated
         elements in outer levels within groups)
         [default: True] [currently: True]
-    
+
     display.notebook_repr_html : boolean
         When True, IPython notebook will use html representation for
         pandas objects (if it is available).
         [default: True] [currently: True]
-    
+
     display.pprint_nest_depth : int
         Controls the number of nested levels to process when pretty-printing
         [default: 3] [currently: 3]
-    
+
     display.precision : int
         Floating point output precision (number of significant digits). This is
         only a suggestion
         [default: 6] [currently: 2]
-    
+
     display.show_dimensions : boolean or 'truncate'
         Whether to print out dimensions at the end of DataFrame repr.
         If 'truncate' is specified, only print out the dimensions if the
         frame is truncated (e.g. not display all rows and/or columns)
         [default: truncate] [currently: truncate]
-    
+
     display.unicode.ambiguous_as_wide : boolean
         Whether to use the Unicode East Asian Width to calculate the display text
         width.
         Enabling this may affect to the performance (default: False)
         [default: False] [currently: False]
-    
+
     display.unicode.east_asian_width : boolean
         Whether to use the Unicode East Asian Width to calculate the display text
         width.
         Enabling this may affect to the performance (default: False)
         [default: False] [currently: False]
-    
+
     display.width : int
         Width of the display in characters. In case python/IPython is running in
         a terminal this can be set to None and pandas will correctly auto-detect
@@ -14735,48 +14736,48 @@ pd.describe_option()
         Note that the IPython notebook, IPython qtconsole, or IDLE do not run in a
         terminal and hence it is not possible to correctly detect the width.
         [default: 80] [currently: 80]
-    
+
     io.excel.xls.writer : string
         The default Excel writer engine for 'xls' files. Available options:
         'xlwt' (the default).
         [default: xlwt] [currently: xlwt]
-    
+
     io.excel.xlsm.writer : string
         The default Excel writer engine for 'xlsm' files. Available options:
         'openpyxl' (the default).
         [default: openpyxl] [currently: openpyxl]
-    
+
     io.excel.xlsx.writer : string
         The default Excel writer engine for 'xlsx' files. Available options:
         'xlsxwriter' (the default), 'openpyxl'.
         [default: xlsxwriter] [currently: xlsxwriter]
-    
+
     io.hdf.default_format : format
         default format writing format, if None, then
         put will default to 'fixed' and append will default to 'table'
         [default: None] [currently: None]
-    
+
     io.hdf.dropna_table : boolean
         drop ALL nan rows when appending to a table
         [default: False] [currently: False]
-    
+
     mode.chained_assignment : string
         Raise an exception, warn, or no action if trying to use chained assignment,
         The default is warn
         [default: warn] [currently: warn]
-    
+
     mode.sim_interactive : boolean
         Whether to simulate interactive mode for purposes of testing
         [default: False] [currently: False]
-    
+
     mode.use_inf_as_null : boolean
         True means treat None, NaN, INF, -INF as null (old way),
         False means None and NaN are null, but INF, -INF are not null
         (new way).
         [default: False] [currently: False]
-    
-    
-    
+
+
+
 
 
 ```python
@@ -14790,12 +14791,12 @@ pd.describe_option('rows')
         limit this null check only to frames with smaller dimensions than
         specified.
         [default: 1690785] [currently: 1690785]
-    
+
     display.max_rows : int
         If max_rows is exceeded, switch to truncate view. Depending on
         `large_repr`, objects are either centrally truncated or printed as
         a summary view. 'None' value means unlimited.
-    
+
         In case python/IPython is running in a terminal and `large_repr`
         equals 'truncate' this can be set to 0 and pandas will auto-detect
         the height of the terminal and print a truncated object which fits
@@ -14803,9 +14804,9 @@ pd.describe_option('rows')
         IDLE do not run in a terminal and hence it is not possible to do
         correct auto-detection.
         [default: 60] [currently: 60]
-    
-    
-    
+
+
+
 
 Documentation for [**`describe_option`**](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.describe_option.html)
 
@@ -14816,18 +14817,18 @@ pd.reset_option('all')
 ```
 
     height has been deprecated.
-    
+
     line_width has been deprecated, use display.width instead (currently both are
     identical)
-    
-    
 
-    c:\Users\Kevin\Anaconda\lib\site-packages\ipykernel\__main__.py:2: FutureWarning: 
+
+
+    c:\Users\Kevin\Anaconda\lib\site-packages\ipykernel\__main__.py:2: FutureWarning:
     mpl_style had been deprecated and will be removed in a future version.
     Use `matplotlib.pyplot.style.use` instead.
-    
+
       from ipykernel import kernelapp as app
-    
+
 
 [Options and Settings](http://pandas.pydata.org/pandas-docs/stable/options.html)
 
