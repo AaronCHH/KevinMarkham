@@ -1,0 +1,130 @@
+
+
+Data analysis in Python with pandas
+Data School31 videos55,103 viewsLast updated on Oct 28, 2016
+Learn how to use the pandas library for data analysis, manipulation, and visualization. Each video answers a student question using a real dataset, which is available online so you can follow along!
+Play all  Share  Save
+
+   
+What is pandas? (Introduction to the Q&A series)
+by Data School
+6:25
+   
+How do I read a tabular data file into pandas?
+by Data School
+8:55
+   
+How do I select a pandas Series from a DataFrame?
+by Data School
+11:11
+   
+Why do some pandas commands end with parentheses (and others don't)?
+by Data School
+8:46
+   
+How do I rename columns in a pandas DataFrame?
+by Data School
+9:37
+   
+How do I remove columns from a pandas DataFrame?
+by Data School
+6:36
+   
+How do I sort a pandas DataFrame or a Series?
+by Data School
+8:57
+   
+How do I filter rows of a pandas DataFrame by column value?
+by Data School
+13:45
+   
+How do I apply multiple filter criteria to a pandas DataFrame?
+by Data School
+9:52
+   
+Your pandas questions answered!
+by Data School
+9:07
+   
+How do I use the "axis" parameter in pandas?
+by Data School
+8:34
+   
+How do I use string methods in pandas?
+by Data School
+6:17
+   
+How do I change the data type of a pandas Series?
+by Data School
+7:29
+   
+When should I use a "groupby" in pandas?
+by Data School
+8:25
+   
+How do I explore a pandas Series?
+by Data School
+9:51
+   
+How do I handle missing values in pandas?
+by Data School
+14:28
+   
+What do I need to know about the pandas index? (Part 1)
+by Data School
+13:37
+   
+What do I need to know about the pandas index? (Part 2)
+by Data School
+10:39
+   
+How do I select multiple rows and columns from a pandas DataFrame?
+by Data School
+21:47
+   
+When should I use the "inplace" parameter in pandas?
+by Data School
+10:19
+   
+How do I make my pandas DataFrame smaller and faster?
+by Data School
+19:06
+   
+How do I use pandas with scikit-learn to create Kaggle submissions?
+by Data School
+13:26
+   
+More of your pandas questions answered!
+by Data School
+19:24
+   
+How do I create dummy variables in pandas?
+by Data School
+13:14
+   
+How do I work with dates and times in pandas?
+by Data School
+10:21
+   
+How do I find and remove duplicate rows in pandas?
+by Data School
+9:48
+   
+How do I avoid a SettingWithCopyWarning in pandas?
+by Data School
+13:30
+   
+How do I change display options in pandas?
+by Data School
+14:56
+   
+How do I create a pandas DataFrame from another object?
+by Data School
+14:26
+   
+How do I apply a function to a pandas Series or DataFrame?
+by Data School
+17:58
+   
+Your pandas questions answered! (webcast)
+by Data School
