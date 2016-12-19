@@ -1,56 +1,56 @@
 
 # Python pandas Q&A video series by [Data School](http://www.dataschool.io/)
 
+
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
 - [Python pandas Q&A video series by Data School](#python-pandas-qa-video-series-by-data-schoolhttpwwwdataschoolio)
-	- [1. What is pandas? (video)](#1-what-is-pandas-videohttpswwwyoutubecomwatchvyzimircgu5ilistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex1)
-	- [2. How do I read a tabular data file into pandas? (video)](#2-how-do-i-read-a-tabular-data-file-into-pandas-videohttpswwwyoutubecomwatchv5_qxmwezpjelistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex2)
-	- [3. How do I select a pandas Series from a DataFrame? (video)](#3-how-do-i-select-a-pandas-series-from-a-dataframe-videohttpswwwyoutubecomwatchvzxqjeykp2tklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex3)
-	- [4. Why do some pandas commands end with parentheses (and others don't)? (video)](#4-why-do-some-pandas-commands-end-with-parentheses-and-others-dont-videohttpswwwyoutubecomwatchvhsrdviykwvklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex4)
-	- [5. How do I rename columns in a pandas DataFrame? (video)](#5-how-do-i-rename-columns-in-a-pandas-dataframe-videohttpswwwyoutubecomwatchv0ubiryfhizelistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex5)
-	- [6. How do I remove columns from a pandas DataFrame? (video)](#6-how-do-i-remove-columns-from-a-pandas-dataframe-videohttpswwwyoutubecomwatchvgnukks964wqlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex6)
-	- [7. How do I sort a pandas DataFrame or a Series? (video)](#7-how-do-i-sort-a-pandas-dataframe-or-a-series-videohttpswwwyoutubecomwatchvzy4dof6xsxylistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex7)
-	- [8. How do I filter rows of a pandas DataFrame by column value? (video)](#8-how-do-i-filter-rows-of-a-pandas-dataframe-by-column-value-videohttpswwwyoutubecomwatchv2afgpdnn4fmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex8)
-	- [9. How do I apply multiple filter criteria to a pandas DataFrame? (video)](#9-how-do-i-apply-multiple-filter-criteria-to-a-pandas-dataframe-videohttpswwwyoutubecomwatchvypitfq87qjmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex9)
-	- [10. Your pandas questions answered! (video)](#10-your-pandas-questions-answered-videohttpswwwyoutubecomwatchvb-r9vuk80dklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex10)
-	- [11. How do I use the "axis" parameter in pandas? (video)](#11-how-do-i-use-the-axis-parameter-in-pandas-videohttpswwwyoutubecomwatchvpto3t6ynh-8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex11)
-	- [12. How do I use string methods in pandas? (video)](#12-how-do-i-use-string-methods-in-pandas-videohttpswwwyoutubecomwatchvbofac0ickholistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex12)
-	- [13. How do I change the data type of a pandas Series? (video)](#13-how-do-i-change-the-data-type-of-a-pandas-series-videohttpswwwyoutubecomwatchvv0awyzvmf54listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex13)
-	- [14. When should I use a "groupby" in pandas? (video)](#14-when-should-i-use-a-groupby-in-pandas-videohttpswwwyoutubecomwatchvqy0fdqomjx8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex14)
-	- [15. How do I explore a pandas Series? (video)](#15-how-do-i-explore-a-pandas-series-videohttpswwwyoutubecomwatchvqtvtq8spzxmlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex15)
-	- [16. How do I handle missing values in pandas? (video)](#16-how-do-i-handle-missing-values-in-pandas-videohttpswwwyoutubecomwatchvfcmro_vzel8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex16)
-	- [17. What do I need to know about the pandas index? (Part 1) (video)](#17-what-do-i-need-to-know-about-the-pandas-index-part-1-videohttpswwwyoutubecomwatchvoyznk7z9s6ilistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex17)
-	- [18. What do I need to know about the pandas index? (Part 2) (video)](#18-what-do-i-need-to-know-about-the-pandas-index-part-2-videohttpswwwyoutubecomwatchv15q-is8p_h4listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex18)
-	- [19. How do I select multiple rows and columns from a pandas DataFrame? (video)](#19-how-do-i-select-multiple-rows-and-columns-from-a-pandas-dataframe-videohttpswwwyoutubecomwatchvxvpna7bc8cslistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex19)
-	- [20. When should I use the "inplace" parameter in pandas? (video)](#20-when-should-i-use-the-inplace-parameter-in-pandas-videohttpswwwyoutubecomwatchvxacsdr7ppmylistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex20)
-	- [21. How do I make my pandas DataFrame smaller and faster? (video)](#21-how-do-i-make-my-pandas-dataframe-smaller-and-faster-videohttpswwwyoutubecomwatchvwdydygyn_cwlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex21)
-	- [22. How do I use pandas with scikit-learn to create Kaggle submissions? (video)](#22-how-do-i-use-pandas-with-scikit-learn-to-create-kaggle-submissions-videohttpswwwyoutubecomwatchvylrlgctatielistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex22)
-	- [23. More of your pandas questions answered! (video)](#23-more-of-your-pandas-questions-answered-videohttpswwwyoutubecomwatchvoh3wykvwpj8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex23)
-	- [24. How do I create dummy variables in pandas? (video)](#24-how-do-i-create-dummy-variables-in-pandas-videohttpswwwyoutubecomwatchv0s_1isrogdclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex24)
-	- [25. How do I work with dates and times in pandas? (video)](#25-how-do-i-work-with-dates-and-times-in-pandas-videohttpswwwyoutubecomwatchvycgjgsg0xa4listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex25)
-	- [26. How do I find and remove duplicate rows in pandas? (video)](#26-how-do-i-find-and-remove-duplicate-rows-in-pandas-videohttpswwwyoutubecomwatchvht5buxumqkqlistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex26)
-	- [27. How do I avoid a SettingWithCopyWarning in pandas? (video)](#27-how-do-i-avoid-a-settingwithcopywarning-in-pandas-videohttpswwwyoutubecomwatchv4r4wsdj-kvclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex27)
-	- [28. How do I change display options in pandas? (video)](#28-how-do-i-change-display-options-in-pandas-videohttpswwwyoutubecomwatchvyio43tq4xvclistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex28)
-	- [29. How do I create a pandas DataFrame from another object? (video)](#29-how-do-i-create-a-pandas-dataframe-from-another-object-videohttpswwwyoutubecomwatchv-ov1n1_fbp8listpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex29)
-	- [30. How do I apply a function to a pandas Series or DataFrame? (video)](#30-how-do-i-apply-a-function-to-a-pandas-series-or-dataframe-videohttpswwwyoutubecomwatchvp_q0tkyqvsklistpl5-da3qgb5iccsgw1mxlz0hq8ll5u3u9yindex30)
+	- [1. What is pandas?](#1-what-is-pandas)
+	- [2. How do I read a tabular data file into pandas?](#2-how-do-i-read-a-tabular-data-file-into-pandas)
+	- [3. How do I select a pandas Series from a DataFrame?](#3-how-do-i-select-a-pandas-series-from-a-dataframe)
+	- [4. Why do some pandas commands end with parentheses (and others don't)?](#4-why-do-some-pandas-commands-end-with-parentheses-and-others-dont)
+	- [5. How do I rename columns in a pandas DataFrame?](#5-how-do-i-rename-columns-in-a-pandas-dataframe)
+	- [6. How do I remove columns from a pandas DataFrame?](#6-how-do-i-remove-columns-from-a-pandas-dataframe)
+	- [7. How do I sort a pandas DataFrame or a Series?](#7-how-do-i-sort-a-pandas-dataframe-or-a-series)
+	- [8. How do I filter rows of a pandas DataFrame by column value?](#8-how-do-i-filter-rows-of-a-pandas-dataframe-by-column-value)
+	- [9. How do I apply multiple filter criteria to a pandas DataFrame?](#9-how-do-i-apply-multiple-filter-criteria-to-a-pandas-dataframe)
+	- [10. Your pandas questions answered!](#10-your-pandas-questions-answered)
+	- [11. How do I use the "axis" parameter in pandas?](#11-how-do-i-use-the-axis-parameter-in-pandas)
+	- [12. How do I use string methods in pandas?](#12-how-do-i-use-string-methods-in-pandas)
+	- [13. How do I change the data type of a pandas Series?](#13-how-do-i-change-the-data-type-of-a-pandas-series)
+	- [14. When should I use a "groupby" in pandas?](#14-when-should-i-use-a-groupby-in-pandas)
+	- [15. How do I explore a pandas Series?](#15-how-do-i-explore-a-pandas-series)
+	- [16. How do I handle missing values in pandas?](#16-how-do-i-handle-missing-values-in-pandas)
+	- [17. What do I need to know about the pandas index? (Part 1)](#17-what-do-i-need-to-know-about-the-pandas-index-part-1)
+	- [18. What do I need to know about the pandas index? (Part 2)](#18-what-do-i-need-to-know-about-the-pandas-index-part-2)
+	- [19. How do I select multiple rows and columns from a pandas DataFrame?](#19-how-do-i-select-multiple-rows-and-columns-from-a-pandas-dataframe)
+	- [20. When should I use the "inplace" parameter in pandas?](#20-when-should-i-use-the-inplace-parameter-in-pandas)
+	- [21. How do I make my pandas DataFrame smaller and faster?](#21-how-do-i-make-my-pandas-dataframe-smaller-and-faster)
+	- [22. How do I use pandas with scikit-learn to create Kaggle submissions?](#22-how-do-i-use-pandas-with-scikit-learn-to-create-kaggle-submissions)
+	- [23. More of your pandas questions answered!](#23-more-of-your-pandas-questions-answered)
+	- [24. How do I create dummy variables in pandas?](#24-how-do-i-create-dummy-variables-in-pandas)
+	- [25. How do I work with dates and times in pandas?](#25-how-do-i-work-with-dates-and-times-in-pandas)
+	- [26. How do I find and remove duplicate rows in pandas?](#26-how-do-i-find-and-remove-duplicate-rows-in-pandas)
+	- [27. How do I avoid a SettingWithCopyWarning in pandas?](#27-how-do-i-avoid-a-settingwithcopywarning-in-pandas)
+	- [28. How do I change display options in pandas?](#28-how-do-i-change-display-options-in-pandas)
+	- [29. How do I create a pandas DataFrame from another object?](#29-how-do-i-create-a-pandas-dataframe-from-another-object)
+	- [30. How do I apply a function to a pandas Series or DataFrame?](#30-how-do-i-apply-a-function-to-a-pandas-series-or-dataframe)
 
 <!-- tocstop -->
-
 
 ```python
 # conventional way to import pandas
 import pandas as pd
 ```
 
-## 1. What is pandas? ([video](https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1))
+## 1. What is pandas?
 
 - [pandas main page](http://pandas.pydata.org/)
 - [pandas installation instructions](http://pandas.pydata.org/pandas-docs/stable/install.html)
 - [Anaconda distribution of Python](https://www.continuum.io/downloads) (includes pandas)
 - [How to use the IPython/Jupyter notebook](https://youtu.be/IsXXlYVBt1M?t=5m17s) (video)
 
-## 2. How do I read a tabular data file into pandas? ([video](https://www.youtube.com/watch?v=5_QXMwezPJE&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=2))
+## 2. How do I read a tabular data file into pandas?
 
 
 ```python
@@ -205,7 +205,7 @@ users.head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 3. How do I select a pandas Series from a DataFrame? ([video](https://www.youtube.com/watch?v=zxqjeyKP2Tk&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=3))
+## 3. How do I select a pandas Series from a DataFrame?
 
 
 ```python
@@ -447,7 +447,7 @@ ufo.head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 4. Why do some pandas commands end with parentheses (and others don't)? ([video](https://www.youtube.com/watch?v=hSrDViyKWVk&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=4))
+## 4. Why do some pandas commands end with parentheses (and others don't)?
 
 
 ```python
@@ -687,7 +687,7 @@ Documentation for [**`describe`**](http://pandas.pydata.org/pandas-docs/stable/g
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 5. How do I rename columns in a pandas DataFrame? ([video](https://www.youtube.com/watch?v=0uBirYFhizE&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=5))
+## 5. How do I rename columns in a pandas DataFrame?
 
 
 ```python
@@ -773,7 +773,7 @@ Documentation for [**`str.replace`**](http://pandas.pydata.org/pandas-docs/stabl
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 6. How do I remove columns from a pandas DataFrame? ([video](https://www.youtube.com/watch?v=gnUKkS964WQ&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=6))
+## 6. How do I remove columns from a pandas DataFrame?
 
 
 ```python
@@ -1013,7 +1013,7 @@ ufo.head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 7. How do I sort a pandas DataFrame or a Series? ([video](https://www.youtube.com/watch?v=zY4doF6xSxY&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=7))
+## 7. How do I sort a pandas DataFrame or a Series?
 
 
 ```python
@@ -1358,7 +1358,7 @@ movies.sort_values(['content_rating', 'duration']).head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 8. How do I filter rows of a pandas DataFrame by column value? ([video](https://www.youtube.com/watch?v=2AFGPdNn4FM&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=8))
+## 8. How do I filter rows of a pandas DataFrame by column value?
 
 
 ```python
@@ -1816,7 +1816,7 @@ Documentation for [**`loc`**](http://pandas.pydata.org/pandas-docs/stable/genera
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 9. How do I apply multiple filter criteria to a pandas DataFrame? ([video](https://www.youtube.com/watch?v=YPItfQ87qjM&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=9))
+## 9. How do I apply multiple filter criteria to a pandas DataFrame?
 
 
 ```python
@@ -2327,7 +2327,7 @@ Documentation for [**`isin`**](http://pandas.pydata.org/pandas-docs/stable/gener
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 10. Your pandas questions answered! ([video](https://www.youtube.com/watch?v=B-r9VuK80dk&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=10))
+## 10. Your pandas questions answered!
 
 **Question:** When reading from a file, how do I read in only a subset of the columns?
 
@@ -2845,7 +2845,7 @@ Documentation for [**`describe`**](http://pandas.pydata.org/pandas-docs/stable/g
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 11. How do I use the "axis" parameter in pandas? ([video](https://www.youtube.com/watch?v=PtO3t6ynH-8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=11))
+## 11. How do I use the "axis" parameter in pandas?
 
 
 ```python
@@ -3153,7 +3153,7 @@ drinks.mean(axis='columns').head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 12. How do I use string methods in pandas? ([video](https://www.youtube.com/watch?v=bofaC0IckHo&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=12))
+## 12. How do I use string methods in pandas?
 
 
 ```python
@@ -3381,7 +3381,7 @@ orders.choice_description.str.replace('[\[\]]', '').head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 13. How do I change the data type of a pandas Series? ([video](https://www.youtube.com/watch?v=V0AWyzVMf54&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=13))
+## 13. How do I change the data type of a pandas Series?
 
 
 ```python
@@ -3657,7 +3657,7 @@ orders.item_name.str.contains('Chicken').astype(int).head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 14. When should I use a "groupby" in pandas? ([video](https://www.youtube.com/watch?v=qy0fDqoMJx8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=14))
+## 14. When should I use a "groupby" in pandas?
 
 
 ```python
@@ -3983,7 +3983,7 @@ Documentation for [**`plot`**](http://pandas.pydata.org/pandas-docs/stable/gener
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 15. How do I explore a pandas Series? ([video](https://www.youtube.com/watch?v=QTVTq8SPzxM&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=15))
+## 15. How do I explore a pandas Series?
 
 
 ```python
@@ -4613,7 +4613,7 @@ Documentation for [**`plot`**](http://pandas.pydata.org/pandas-docs/stable/gener
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 16. How do I handle missing values in pandas? ([video](https://www.youtube.com/watch?v=fCMrO_VzeL8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=16))
+## 16. How do I handle missing values in pandas?
 
 
 ```python
@@ -5071,7 +5071,7 @@ ufo['Shape Reported'].value_counts().head()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 17. What do I need to know about the pandas index? (Part 1) ([video](https://www.youtube.com/watch?v=OYZNk7Z9s6I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=17))
+## 17. What do I need to know about the pandas index? (Part 1)
 
 
 ```python
@@ -5801,7 +5801,7 @@ drinks.describe().loc['25%', 'beer_servings']
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 18. What do I need to know about the pandas index? (Part 2) ([video](https://www.youtube.com/watch?v=15q-is8P_H4&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=18))
+## 18. What do I need to know about the pandas index? (Part 2)
 
 
 ```python
@@ -6183,7 +6183,7 @@ Documentation for [**`concat`**](http://pandas.pydata.org/pandas-docs/stable/gen
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 19. How do I select multiple rows and columns from a pandas DataFrame? ([video](https://www.youtube.com/watch?v=xvpNA7bC8cs&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=19))
+## 19. How do I select multiple rows and columns from a pandas DataFrame?
 
 
 ```python
@@ -7034,7 +7034,7 @@ ufo.ix[0:2, 0:2]
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 20. When should I use the "inplace" parameter in pandas? ([video](https://www.youtube.com/watch?v=XaCSdr7pPmY&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=20))
+## 20. When should I use the "inplace" parameter in pandas?
 
 
 ```python
@@ -7530,7 +7530,7 @@ ufo.fillna(method='ffill').tail()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 21. How do I make my pandas DataFrame smaller and faster? ([video](https://www.youtube.com/watch?v=wDYDYGyN_cw&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=21))
+## 21. How do I make my pandas DataFrame smaller and faster?
 
 
 ```python
@@ -7982,7 +7982,7 @@ df.loc[df.quality > 'good', :]
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 22. How do I use pandas with scikit-learn to create Kaggle submissions? ([video](https://www.youtube.com/watch?v=ylRlGCtAtiE&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=22))
+## 22. How do I use pandas with scikit-learn to create Kaggle submissions?
 
 
 ```python
@@ -8503,7 +8503,7 @@ Documentation for [**`to_pickle`**](http://pandas.pydata.org/pandas-docs/stable/
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 23. More of your pandas questions answered! ([video](https://www.youtube.com/watch?v=oH3wYKvwpJ8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=23))
+## 23. More of your pandas questions answered!
 
 **Question:** Could you explain how to read the pandas documentation?
 
@@ -9065,7 +9065,7 @@ Documentation for [**`isin`**](http://pandas.pydata.org/pandas-docs/stable/gener
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 24. How do I create dummy variables in pandas? ([video](https://www.youtube.com/watch?v=0s_1IsROgDc&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=24))
+## 24. How do I create dummy variables in pandas?
 
 
 ```python
@@ -10098,7 +10098,7 @@ Documentation for [**`get_dummies`**](http://pandas.pydata.org/pandas-docs/stabl
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 25. How do I work with dates and times in pandas? ([video](https://www.youtube.com/watch?v=yCgJGsg0Xa4&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=25))
+## 25. How do I work with dates and times in pandas?
 
 
 ```python
@@ -10499,7 +10499,7 @@ ufo.Year.value_counts().sort_index().plot()
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 26. How do I find and remove duplicate rows in pandas? ([video](https://www.youtube.com/watch?v=ht5buXUMqkQ&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=26))
+## 26. How do I find and remove duplicate rows in pandas?
 
 
 ```python
@@ -11018,7 +11018,7 @@ users.drop_duplicates(subset=['age', 'zip_code']).shape
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 27. How do I avoid a SettingWithCopyWarning in pandas? ([video](https://www.youtube.com/watch?v=4R4WsDJ-KVc&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=27))
+## 27. How do I avoid a SettingWithCopyWarning in pandas?
 
 
 ```python
@@ -11613,7 +11613,7 @@ Stack Overflow: [What is the point of views in pandas if it is undefined whether
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 28. How do I change display options in pandas? ([video](https://www.youtube.com/watch?v=yiO43TQ4xvc&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=28))
+## 28. How do I change display options in pandas?
 
 
 ```python
@@ -14834,7 +14834,7 @@ pd.reset_option('all')
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 29. How do I create a pandas DataFrame from another object? ([video](https://www.youtube.com/watch?v=-Ov1N1_FbP8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=29))
+## 29. How do I create a pandas DataFrame from another object?
 
 
 ```python
@@ -15241,7 +15241,7 @@ Documentation for [**`concat`**](http://pandas.pydata.org/pandas-docs/stable/gen
 
 [<a href="#Python-pandas-Q&A-video-series-by-Data-School">Back to top</a>]
 
-## 30. How do I apply a function to a pandas Series or DataFrame? ([video](https://www.youtube.com/watch?v=P_q0tkYqvSk&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=30))
+## 30. How do I apply a function to a pandas Series or DataFrame?
 
 
 ```python
